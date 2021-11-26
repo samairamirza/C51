@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.header {
+    background-color: salmon;
+    
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: burlywood;
+}
+
+.grid{
+    display   :flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
